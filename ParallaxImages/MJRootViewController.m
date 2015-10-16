@@ -9,7 +9,7 @@
 #import "MJRootViewController.h"
 #import "MJCollectionViewCell.h"
 
-@interface MJRootViewController () <UICollectionViewDataSource, UICollectionViewDelegate, UIScrollViewDelegate>
+@interface MJRootViewController () <UICollectionViewDataSource, UICollectionViewDelegate, UIScrollViewDelegate, UICollectionViewDelegateFlowLayout>
 
 @property (weak, nonatomic) IBOutlet UICollectionView *parallaxCollectionView;
 @property (nonatomic, strong) NSMutableArray* images;
